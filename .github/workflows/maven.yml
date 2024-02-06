@@ -22,7 +22,7 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
 
-         # Set up environment file
+    # Set up environment file
     - name: Set environment variables
       run: echo "OUTPUT_VAR=value" >> $GITHUB_ENV
 
